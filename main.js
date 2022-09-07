@@ -23,7 +23,7 @@ const getAggregatedData = async () => {
   // 获取金山词霸每日一句
   const { content: noteEn, note: noteCh } = await getCIBA()
   // 获取每日一言
-  const { hitokoto: oneTalk, from: talkFrom } = await getOneTalk(config.LITERARY_PREFERENCE)
+  //const { hitokoto: oneTalk, from: talkFrom } = await getOneTalk(config.LITERARY_PREFERENCE)
   // 获取土味情话
   const earthyLoveWords = await getEarthyLoveWords()
   // 获取朋友圈文案
