@@ -37,9 +37,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "QvHA0GngGv7j6GHLYSvX1v2onGfs-3_0HrCP2Y1iK2M",
       // 所在省份
-      province: "吉林",
+      province: "北京",
       // 所在城市
-      city: "长春",
+      city: "北京",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=gh_9f84233d1727=="
     }
@@ -69,9 +69,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "吉林",
+  PROVINCE: "北京",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "长春",
+  CITY: "北京",
 
   /** 重要节日相关 */
 
