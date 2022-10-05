@@ -20,8 +20,12 @@ export const toLowerLine =  (str) => {
  * 获取随机颜色
  * @returns
  */
+// export const getColor = () => {
+//   return `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`
+// }
+
 export const getColor = () => {
-  return `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`
+  return `#0xffffff`
 }
 
 
