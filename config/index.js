@@ -35,13 +35,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ogLTp539EgmkBC1ytCfm8z_TiMGQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Au4h-TQu1yiQ9nddBnbLzZeLHhxjOwbup0o5FMwz8OA",
+      useTemplateId: "QvHA0GngGv7j6GHLYSvX1v2onGfs-3_0HrCP2Y1iK2M",
       // 所在省份
-      province: "北京",
+      province: "吉林",
       // 所在城市
-      city: "北京",
+      city: "长春",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://www.baidu.com/"
+      openUrl: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=gh_9f84233d1727=="
     }
   ],
 
@@ -50,7 +50,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "I_-Frrg0sv7yTaIBHDjPNIZqE75Va8TWFwsymoNAMio",
+  CALLBACK_TEMPLATE_ID: "QvHA0GngGv7j6GHLYSvX1v2onGfs-3_0HrCP2Y1iK2M",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -69,9 +69,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "北京",
+  PROVINCE: "吉林",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "北京",
+  CITY: "长春",
 
   /** 重要节日相关 */
 
@@ -82,7 +82,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "慧慧", "year": "1999", "date": "11-15"}
+    {"type": "生日", "name": "慧慧", "year": "1999", "date": "11-15"},
+    {"type": "生日", "name": "小工", "year": "1999", "date": "05-15"},
+    {"type": "节日", "name": "100天纪念日", "year": "2022", "date": "11-28"},
+    {"type": "节日", "name": "新年倒计时", "year": "2023", "date": "01-01"}
   ],
 
   /**
