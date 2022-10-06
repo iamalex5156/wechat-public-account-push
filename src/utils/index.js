@@ -25,7 +25,7 @@ export const toLowerLine =  (str) => {
 // }
 
 export const getColor = () => {
-  return `#0xffffff`
+  return `#000000`
 }
 
 
